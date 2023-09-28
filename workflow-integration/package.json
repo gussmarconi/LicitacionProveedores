@@ -1,0 +1,39 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port 3154",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@floating-ui/vue": "^1.0.2",
+    "@iconify/json": "^2.2.104",
+    "@nuxt/devtools": "latest",
+    "@nuxt/ui": "^2.8.1",
+    "@nuxtjs/google-fonts": "^3.0.2",
+    "@pinia/nuxt": "^0.4.11",
+    "@types/downloadjs": "^1.4.4",
+    "@types/js-cookie": "^3.0.3",
+    "@types/node": "^18.17.3",
+    "@types/vue-the-mask": "^0.11.1",
+    "@vuepic/vue-datepicker": "^6.0.1",
+    "@vueuse/nuxt": "^10.4.1",
+    "axios": "^1.4.0",
+    "dayjs": "^1.11.9",
+    "downloadjs": "^1.4.7",
+    "jwt-decode": "^3.1.2",
+    "nuxt": "^3.6.5",
+    "pinia": "^2.1.6",
+    "sass": "^1.66.1",
+    "vee-validate": "^4.11.2",
+    "vue-currency-input": "^3.0.5",
+    "vue-the-mask": "^0.11.1",
+    "vue3-carousel": "^0.3.1"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
